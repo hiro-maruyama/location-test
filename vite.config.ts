@@ -3,7 +3,6 @@ export default defineConfig({
     build: { 
        chunkSizeWarningLimit: 100000000
     },
-})
-base: import.meta.env.DEV
-    ? "/"
-    : "/location-test/",
+    base: "/location-test/" 
+});
+//export default defineConfig({ base: "/location-test" });
